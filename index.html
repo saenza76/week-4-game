@@ -5,6 +5,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Crystals Collector</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
 </head>
 <body>
 	<div id="container">
@@ -15,23 +17,30 @@
 
 		<div id="instructions">
 			<p>You will be given a random number at the start of the game.</p>
-			</br>
-			<p>There are four crystals below. By clicking on a crystal you wil add a specific amount of points to your total score.</p>
-			</br>
+			<p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
 			<p>You win the game by matching your total score to the random number. You lose the game if your total score goes above the random number.</p>
-			<br>
 			<p>The value of each crystal is hidden from you until you click on it.</p>
-			</br>
 			<p>Each time when the game starts, the game will change the values of each crystal.</p>
 		</div>
 
 		<div id="randombox"></div>
 
-		<div id="winslosses"></div>
+		<div id="winslosses">
+			</br>
+			<p>Wins: 0</p>
+			<p>Losses: 0</p>
+		</div>
 
-		<div id="crystals"></div>
+		<div id="crystals">
+			<img src="assets/images/diamond.jpg" id="diamond">
+			<img src="assets/images/emerald.jpg" id="emerald">
+			<img src="assets/images/ruby.jpg" id="ruby">
+			<img src="assets/images/sapphire.jpg" id="sapphire">
+		</div>
 
-		<div id="totalscore"></div>
+		<div id="totalscore">
+			<p>Your total score is: </p>
+		</div>
 
 		<div id="currentscore"></div>
 		
