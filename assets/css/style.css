@@ -1,11 +1,13 @@
 body {
 	background-image: url('../images/symphony.png');
+	font-family: 'Arial', Times, helvetica, sans-serif;
+	margin-left: 20px;
 }
 
 #headerbox {
 	background: #c06b35;
 	color: white;
-	font-size: 22px;
+	font-size: 20px;
 	width: 350px;
 	height: 100px;
 	display: flex;
@@ -18,7 +20,6 @@ body {
 	width: 500px;
 	height: 400px;
 }
-
 
 #randombox {
 	background: #67a76a;
@@ -48,14 +49,16 @@ img {
 	font-size: 18px;
 	width: 240px;
 	text-align: center;
+	margin-bottom: 20px;
 }
 
 #currentscore {
 	background: #00cc99;
 	color: white;
-	font-size: 25px;
+	font-size: 35px;
 	height: 120px;
 	width: 240px;
 	margin-bottom: 20px;
+	text-align: center;
 }
 
